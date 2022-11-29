@@ -1,0 +1,13 @@
+// :root {
+//   --main-bg-color: pink;
+//   --main-theme-color: yellow;
+// }
+
+body {
+  // background-color: var(--main-bg-color);
+}
+
+// CSS common style sheet
+@import './common.scss';
+// @import "element-plus/theme-chalk/dark/css-vars.css";
+// @import './theme/element-dark.scss'

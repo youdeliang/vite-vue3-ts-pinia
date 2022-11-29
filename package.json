@@ -11,11 +11,13 @@
     "prettier:comment": "自动格式化当前目录下的所有文件",
     "prettier": "prettier --write",
     "commit:comment": "引导设置规范化的提交信息",
-    "commit": "git-cz"
+    "commit": "git add . && git-cz"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
     "@vueuse/core": "^9.5.0",
     "axios": "^1.1.3",
+    "element-plus": "^2.2.22",
     "pinia": "^2.0.23",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6"
@@ -38,6 +40,7 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "sass": "^1.56.1",
     "typescript": "^4.6.4",
     "vite": "^3.2.3",
     "vite-plugin-style-import": "^2.0.0",
@@ -50,8 +53,8 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-          "npm run eslint",
-          "npm run prettier"
+      "npm run eslint",
+      "npm run prettier"
     ]
   }
 }

@@ -1,8 +1,0 @@
-:root {
-  --main-bg-color: pink;
-  --main-theme-color:yellow
-}
-
-body {
-  background-color: var(--main-bg-color);
-}

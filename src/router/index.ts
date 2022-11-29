@@ -42,6 +42,16 @@ const routes: Array<RouteRecordRaw> = [
       requireAuth: true
     },
     component: () => import('@/pages/vueUse.vue')
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    meta: {
+      title: '注册',
+      KeepAlive: true,
+      requireAuth: true
+    },
+    component: () => import('@/pages/register.vue')
   }
 ];
 const router = createRouter({
