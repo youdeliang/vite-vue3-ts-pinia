@@ -21,7 +21,7 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/pages/vueUse.vue')
       }
     ],
-    component: () => import('@/pages/login.vue')
+    component: () => import('@/pages/login/index.vue')
   },
   {
     path: '/',
