@@ -11,7 +11,7 @@
     "prettier:comment": "自动格式化当前目录下的所有文件",
     "prettier": "prettier --write",
     "commit:comment": "引导设置规范化的提交信息",
-    "commit": "git add . && git-cz"
+    "commit": "git pull && git add -A && git-cz && git push"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.10",
